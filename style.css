@@ -1,20 +1,19 @@
 .top_logo {
-    background-color: antiquewhite;
+    background-color: antiquewhte;
 }
 .video-container {
     background-color: aqua;
     width: 100%;
 }
 #mheader_top {
-    background-color: antiquewhite;
+    background-color: green;
     height: 40px;
     line-height: 40px;
-    width: 100%;
     display: flex;
 }
 .mheader_top_in  {
     background-color: aqua;
-    width: 1184px;
+    width: 2000px;
     display: flex;
     justify-content: space-between; /* 왼쪽과 오른쪽 정렬을 위한 공간 분배 */
     align-items: center; /* 수직 가운데 정렬 */
@@ -41,9 +40,13 @@
     justify-content: flex-end;
     align-items: center;
     background-color: violet;
+    width: 100;
 }
 .r_con ul {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: auto;
 }
 .r_con li {
     display: flex;
@@ -73,24 +76,38 @@
     justify-content: space-between;
 }
 .header_inner {
-    background-color: brown;
+    background-color: ;
+    color: #fff;
     display: flex;
     width: 100;
     height: 50px;
+    justify-content: center;
+    padding: 10px;
 }
 .top_logo {
     display: flex;
     justify-content: right;
     align-items: center;
     height: 40px;
+    margin: 0;
+    padding: 0;
+}
+.top_logo img {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 .top_cate_fleft {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px 50px;
 }
 .top_cate_fleft ul{
-    display: flex
+    display: flex;
+    padding-top: 20px;
 }
 .top_cate_fleft a {
     padding-left: 30px;
@@ -98,11 +115,73 @@
 .top_all_cate {
     display: flex;
     justify-content: right;
+    margin: 10%;
+    vertical-align: top;
 }
 #mheader {
     background-color: gray;
     height: 400px;
 }
 .video-container {
-    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.swiper-containor_bg01 {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    height: 800px;
+    background-image: url(https://coiz8528.cafe24.com/backup/main/main_contactus.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #dae7e7;
+    display: flex;
+    justify-content: right;
+}
+.section_txt {
+    text-align: left;
+    padding: 100px 0px 0px 100px;
+    letter-spacing: -0.5px;
+    padding-left: 100px;
+    width: 617px;
+    height: 347px;
+}
+.txt01 {
+    color: #000;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.1;
+    position: relative;
+    float: right;
+    width: 517px;
+    height: 52px;
+}
+.left_t_bt {
+    width: 25px;
+    height: 1px;
+    background-color: #000;
+    font-weight: 300;
+    margin: 30px 0px; 
+}
+.txt02 { 
+    width: 517px;
+    height: 52px;
+    font-size: 17px;
+    line-height: 26px;
+    margin-top: 30px;;
+}
+.txt03 {
+    background-color: #000;
+    color: #fff;
+    width: 235px;
+    height: 40px;
+    padding: 10px 5px 10px 20px;
+    margin-top: 48px;
+    font-size: 16px;
+    text-indent: 10px;
+    display: block;
+    background-image: url(https://coiz8528.cafe24.com/backup/top_banner/btn_arrow_r.png);
+    background-repeat: no-repeat;
+    background-position: 200px 15px;
+    transition: 0.2s ease-in-out;
 }
